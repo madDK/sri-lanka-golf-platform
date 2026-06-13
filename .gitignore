@@ -1,0 +1,23 @@
+# Dependency directories
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Production build outputs
+frontend/dist/
+
+# SQLite local databases
+backend/*.db
+*.db
+
+# Local environment variables
+.env
+.env.local
+.env.production
+.env.development
+.env.staging
+
+# Log files
+*.log
+.system_generated/
+/brain/
